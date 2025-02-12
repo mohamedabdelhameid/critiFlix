@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CritiFlix</title>
+    <!-- icon -->
+    <link rel="icon" type="jpeg" href="img/icon.jpeg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FontFamily -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@700&
+    family=Lora:wght@400&family=Oswald:wght@500&family=Poppins:wght@400&display=swap"
+    rel="stylesheet">
+  </head>
+  <body class="boody" id="Boody">
+
+
+    <div class="progress-container2">
+      <div class="progress-bar2" id="progress-bar"></div>
+  </div>
+
+  <!-- ====================================================================== -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="row justify-content-between">
+          <h1 class="navHead fw-bold" id="mainHeaderAbout">CritiFlix</h1>
+          <div class="Links align-content-center">
+            <!-- <a href="#Home" class="Home">Home</a> -->
+            <a href="#About" class="About" id="AboutTaging">About</a>
+            <a href="pages/news.html" class="News">News</a>
+            <a href="pages/Actors.html" class="Actor">Actor</a>
+            <a href="#conTact" class="Contact" id="contactTaging">Contact</a>
+          </div>
+          <div class="Search align-content-center">
+            <span id="theme_switch">
+              <input type="checkbox" class="checkbox" id="checkbox" hidden>
+              <label for="checkbox" class="checkbox-label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span class="ball"></span>
+              </label>
+            </span>
+          </div>
+          <div class="Links2 align-content-center">
+            <i class="fa-solid fa-bars" onclick="hiddden()" id="Baars"></i>
+          </div>
+          <div class="heddin" id="Hide"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="video-background" onclick="hidder()" id="Home">
+      <img src="img/bgimg.png" id="background-img" alt="">
+      <div class="content">
+        <h1 class="impo">CritiFlix</h1>
+        <p>
+          All information about 
+          <br>
+          HOLLYWOOD
+        </p>
+      </div>
+    </div>
+
+
+
+<!-- About -->
+
+<div class="about mt-5" id="mainAboutDiv">
+  <div class="container">
+    <h1 class="aboutTag text-center mb-5" id="About">
+      About
+    </h1>
+    <div class="row">
+      <div class="col-md-6 col-12">
+        <video autoplay muted class="col-12" id="videoAbout">
+          <source src="img/bgvideo.mp4" type="video/mp4" >
+        </video>
+      </div>
+      <div class="col-md-6 col-12 align-content-center">
+        <p class="aboutContent">
+        Hollywood – a name known in every nook and corner of the globe. Most people worldwide know Hollywood as a movie industry, and significantly fewer people (of course, leaving the  Americans) to be Tinseltown, a neighborhood in Los Angeles, California, and home to the American entertainment industry. The star-studded city is a major tourist destination in America with an endless list of spots to visit. All people with movie love and will never be without knowing Hollywood.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Contact-->
+
+
+
+<div class="conTact" onclick="hidder()" id="Contacting">
+  <div class="container">
+    <h1 class="aboutTag my-4" id="conTact">CONTACT</h1>
+  <div class="div14Grid gridding">
+    <div class="onE align-content-center bblockk4">
+      <img src="img/contactt.jpg" width="100%" alt="" />
+    </div>
+    <div class="TWo bblockk5">
+      <h1>GET IN TOUCH</h1>
+      <form action="https://api.web3forms.com/submit" method="post">
+        <input
+          type="hidden"
+          name="access_key"
+          value="0eeea7b5-c3d9-4b15-bc38-19a9261723be"
+        />
+
+        <input
+          type="hidden"
+          name="from"
+          value="HOLLYWOOD with html , css , bootstrap and js"
+        />
+
+        <input
+          type="text"
+          class="rounded-pill"
+          name="name"
+          placeholder="YOUR NAME"
+          required
+        />
+        <input
+          type="email"
+          class="rounded-pill"
+          name="email"
+          placeholder="YOUR EMAIL"
+          required
+        />
+        <textarea
+          class="rounded-3 ps-2"
+          name="message"
+          id=""
+          rows="5"
+          placeholder="YOUR MESSAGE"
+          required
+        ></textarea>
+        <button class="btn btn-success b-2" type="submit" id="submits">
+          submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- Footer -->
+
+<div class="FooTer mb-0 mt-3" id="FooT" onclick="hidder()">
+  <div class="container text-center pro234">
+    <div class="b-5">
+      <p>
+        &copy; 2025 reserved.Designed by
+        <a href="https://wa.me/+201120203912" class="aCopy">Mohamed</a>
+      </p>
+    </div>
+    <div class="socIal1 text-center">
+      <a
+        href="https://www.facebook.com/profile.php?id=100049063578464&mibextid=ZbWKwL"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://wa.me/+201120203912">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/mohamed-abdel-hameed-6b36732b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/mohamedabdelhameid">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="http://t.me/mo71_med">
+        <i class="fa-brands fa-telegram"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- BTN To Top -->
+
+<button id="btn0012" class="Button">
+  <i class="fa-solid fa-up-long iclass"></i>
+</button>
+
+
+    <!-- JS -->
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/jquery-3.7.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
