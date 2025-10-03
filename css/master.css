@@ -35,7 +35,7 @@ html{
 
 
 .video-background {
-  height: 100vh; /* يجعل الفيديو يغطي الشاشة بالكامل */
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -45,7 +45,7 @@ html{
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* يجعل الفيديو يغطي كامل المساحة */
+  object-fit: cover;
   z-index: -1;
 }
 .content {
@@ -461,7 +461,6 @@ body::-webkit-scrollbar {
 }
 .aCopy:hover {
   color: var(--accent-red);
-  /* font-weight: 500; */
 }
 
 
