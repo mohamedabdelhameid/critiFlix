@@ -11,7 +11,7 @@ let darkmode = localStorage.getItem("darkmode");
 
 
 mainHeaderNews.onclick = () =>{
-  window.location.href = "../index.html"; // ضع رابط الصفحة التي تريد الانتقال إليها
+  window.location.href = "../index.html";
 }
 
 
@@ -171,10 +171,8 @@ function fetchActors(page) {
 
         flexDiv.appendChild(image);
         flexDiv.appendChild(dival);
-        // flexDiv.appendChild(description);
 
 
-        // dival.appendChild()
         dival.appendChild(title);
         dival.appendChild(description);
 
