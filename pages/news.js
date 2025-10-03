@@ -11,7 +11,7 @@ let darkmode = localStorage.getItem("darkmode");
 
 
 mainHeaderNews.onclick = () =>{
-  window.location.href = "../index.html"; // ضع رابط الصفحة التي تريد الانتقال إليها
+  window.location.href = "../index.html";
 }
 
 
@@ -93,10 +93,11 @@ function hidder(){
 }
 
 
+  const proxyUrl = "https://api.allorigins.win/raw?url=";
   const API_KEY = '7e006b2717bc54dd0639a0e21ca1835c';
   const url = `https://gnews.io/api/v4/search?q=Hollywood&lang=en&token=${API_KEY}`;
 
-  fetch(url)
+  fetch(proxyUrl + encodeURIComponent(url))
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
